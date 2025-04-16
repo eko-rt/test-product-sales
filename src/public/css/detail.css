@@ -1,0 +1,135 @@
+/* 全体のスタイル */
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* パンくずリスト */
+.header__inner {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.header__inner a {
+    color: #f9a825;
+    text-decoration: none;
+}
+
+.header__inner a:hover {
+    text-decoration: underline;
+}
+
+/* 商品詳細 */
+.product-detail {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.product-detail__image {
+    flex: 1;
+    text-align: center;
+}
+
+.product-detail__image img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-detail__image input[type="file"] {
+    display: none;
+}
+
+.product-detail__image label {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f9a825;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-detail__info {
+    flex: 2;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.seasons label {
+    margin-right: 10px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-back,
+.btn-save,
+.btn-delete {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-back {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-save {
+    background-color: #f9a825;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-delete {
+    background-color: #e53935;
+    color: #fff;
+}
+
+.btn-back:hover {
+    background-color: #bbb;
+}
+
+.btn-save:hover {
+    background-color: #f57c00;
+}
+
+.btn-delete:hover {
+    background-color: #d32f2f;
+}

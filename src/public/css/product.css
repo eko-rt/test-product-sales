@@ -1,0 +1,170 @@
+/* 全体のスタイル */
+.index {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* ヘッダー部分 */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    border: none;
+}
+
+.header__inner h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* 商品を追加ボタン */
+.btn-add {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9a825;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #e59400;
+}
+
+/* 検索セクション */
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    border: none;
+}
+
+.search-section form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-section input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 200px;
+}
+
+.search-section button {
+    background-color: #F5C900;
+    border: none;
+    color:#736638;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-section button:hover {
+    background-color: #f57c00;
+}
+
+.search-section select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sort-tag {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #f9a825;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sort-tag a.reset-sort {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sort-tag a.reset-sort:hover {
+    color: #ccc;
+}
+
+/* 商品一覧 */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product p {
+    margin: 5px 0;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+/* ページネーション */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a,
+.pagination li span {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination li a:hover {
+    background-color: #f9a825;
+    color: white;
+}
+
+.pagination li.active span {
+    background-color: #f9a825;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #f9a825;
+}
