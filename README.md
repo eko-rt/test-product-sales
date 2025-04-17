@@ -24,6 +24,10 @@ php artisan migrate
 ７.シーディングの実行  
 php artisan db:seed  
 
+８.シンボリックリンクを作成  
+php artisan storagge:link  
+
+
 使用技術(実行環境)  
 nginx1.21.1  
 PHP7.4.9  
