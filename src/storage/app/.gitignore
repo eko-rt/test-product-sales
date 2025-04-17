@@ -1,6 +1,6 @@
 *
-!public/
 !.gitignore
-!storage/
-!storage/app/public/fruits-img/
-!storage/app/public/fruits-img/**
+
+!public/
+!public/fruits-img/
+!public/fruits-img/**
