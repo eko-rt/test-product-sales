@@ -1,1 +1,4 @@
 docker/mysql/data
+!storage/
+!storage/**
+!storage/app
