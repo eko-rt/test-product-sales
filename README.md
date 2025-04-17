@@ -25,7 +25,7 @@ php artisan migrate
 php artisan db:seed  
 
 ８.シンボリックリンクを作成  
-php artisan storagge:link  
+php artisan storage:link  
 
 
 使用技術(実行環境)  
