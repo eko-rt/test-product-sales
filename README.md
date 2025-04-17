@@ -39,6 +39,6 @@ ER図
 
 URL
 
-開発環境：http://localhost/
+開発環境：http://localhost/products
 
 phpMyadmin:http://localhost:8080
