@@ -1,5 +1,5 @@
 Dockerビルド  
-１.git clone git@github.com:estra-inc/confirmation-test-contact-form.git  
+１.git clone git@github.com:eko-rt/test-product-sales.git  
 ２.DockerDesktopアプリを立ち上げる  
 ３.docker-compose up -d --build  
 
