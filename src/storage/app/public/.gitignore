@@ -1,2 +1,4 @@
 *
 !.gitignore
+!storage/app/public/fruits-img/
+!storage/app/public/fruits-img/**
