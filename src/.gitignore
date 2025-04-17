@@ -12,7 +12,6 @@ yarn-error.log
 /.vscode
 docker/mysql/data/ca-key.pem
 
-# storage ディレクトリ全体を追跡対象にする
-!storage/
-!storage/**
-!storage/app/public/fruits-img
+
+!storage/app/public/fruits-img/
+!storage/app/public/fruits-img/**
